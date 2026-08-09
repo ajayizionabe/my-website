@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    background-color: #050505;
+    color: white;
+    font-family: Arial;
+    background-image: radial-gradient(circle at top, #202020, #050505 70%);
+    min-height: 100vh;
+}
+
+
+nav {
+    height: 70px;
+    background-color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 2px solid cyan;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+}
+
+nav h2 {
+     color: cyan;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+nav a:hover {
+    color: cyan;
+}
+
+main {
+    text-align: center;
+    margin-top: 150px;
+}
+
+main h1 {
+    font-size: 50px;
+}
+
+main p {
+    font-size: 20px;
+}button {
+    background-color: cyan;
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+}.game-card {
+    background-color: #151515;
+    width: 250px;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.game-card:hover {
+    transform: translateY(-10px);
+    border-color: cyan;
+    box-shadow: 0 0 20px cyan;
+}.games {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}.game-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}.rivals-info {
+    background-color: #151515;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #333;
+}
+
+.rivals-info h2 {
+    font-size: 30px;
+}
+
+.rivals-info p {
+    color: #bbb;
+    font-size: 18px;
+}box-shadow: 0 0 20px cyan;
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro h1 {
+    font-size: 60px;
+}
+
+.intro p {
+    font-size: 20px;
+}
