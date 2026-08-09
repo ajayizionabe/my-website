@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav>
+    <h2>MY WEBSITE 👑</h2>
+
+    <div>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="games.html">Games</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<main class="gaming">
+    <h1>📩 Contact Me</h1>
+
+    <div class="rivals-info">
+        <h2>Get in Touch</h2>
+
+        <p>Want to contact me? Send me a message!</p>
+
+        <form onsubmit="showMessage(event)">
+            <input type="text" placeholder="Your name" required>
+            <br><br>
+
+            <textarea placeholder="Your message" rows="6" required></textarea>
+            <br><br>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</main>
+<script>
+function showMessage(event) {
+    event.preventDefault();
+    alert("Message sent! 🎮");
+}
+</script>
+</body>
+</html>
