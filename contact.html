@@ -25,12 +25,10 @@
         <h2>Get in Touch</h2>
 
         <p>Want to contact me? Send me a message!</p>
-
-        <form onsubmit="showMessage(event)">
-            <input type="text" placeholder="Your name" required>
+<form action="https://formspree.io/f/mrpzpbvk" method="POST">
+            <input type="text" name="name" placeholder="Your name" required>
             <br><br>
-
-            <textarea placeholder="Your message" rows="6" required></textarea>
+<textarea name="message" placeholder="Your message" rows="6" required></textarea>
             <br><br>
 
             <button type="submit">Send Message</button>
@@ -38,10 +36,5 @@
     </div>
 </main>
 <script>
-function showMessage(event) {
-    event.preventDefault();
-    alert("Message sent! 🎮");
-}
-</script>
 </body>
 </html>
